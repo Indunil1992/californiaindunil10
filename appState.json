@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "dc0c89d9-2606-469c-b9a3-8d53fdfa86dd": {
+        "id": "dc0c89d9-2606-469c-b9a3-8d53fdfa86dd",
+        "parent": null,
+        "name": "californiaindunil10",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "339d6099-1b2a-4b75-876f-0e341ecbbe21"
+        ],
+        "isRemovable": false,
+        "filePath": "californiaindunil10"
+      },
+      "339d6099-1b2a-4b75-876f-0e341ecbbe21": {
+        "id": "339d6099-1b2a-4b75-876f-0e341ecbbe21",
+        "parent": "dc0c89d9-2606-469c-b9a3-8d53fdfa86dd",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "californiaindunil10/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "dc0c89d9-2606-469c-b9a3-8d53fdfa86dd",
+    "openFiles": [
+      "339d6099-1b2a-4b75-876f-0e341ecbbe21"
+    ],
+    "currentFileId": "339d6099-1b2a-4b75-876f-0e341ecbbe21",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "californiaindunil10",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-west-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568106115368
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "californiaindunil10",
+      "url": "https://github.com/Indunil1992/californiaindunil10"
+    }
+  }
+}
