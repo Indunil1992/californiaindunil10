@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "californiaIndunil10/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed cal\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -32,7 +32,7 @@
         },
         "triggers": [
           {
-            "resourceName": "apigusWest1califorrindunilqacalany",
+            "resourceName": "apigusWest1caliindunilqacalany",
             "config": {}
           }
         ]
@@ -62,6 +62,25 @@
           "stageName": "Test",
           "mode": 0
         }
+      },
+      "apigusWest1caliindunilqacalany": {
+        "name": "apigusWest1caliindunilqacalany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-west-1",
+          "apiMode": 0,
+          "apiName": "cali",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/cal",
+          "resourcePath": "/indunil/qa/cal",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test1",
+          "mode": 0
+        }
       }
     },
     "customTemplate": {
@@ -89,7 +108,7 @@
     "projectRegion": "us-west-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568107353110
+    "lastSave": 1568107521945
   },
   "VCS_STATE": {
     "provider": "GitHub",
