@@ -1,27 +1,27 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "dc0c89d9-2606-469c-b9a3-8d53fdfa86dd": {
-        "id": "dc0c89d9-2606-469c-b9a3-8d53fdfa86dd",
+      "b09f7f95-f8bd-425c-8d9a-37fb7e0fd08e": {
+        "id": "b09f7f95-f8bd-425c-8d9a-37fb7e0fd08e",
         "parent": null,
-        "name": "californiaindunil10",
+        "name": "californiaIndunil10",
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "339d6099-1b2a-4b75-876f-0e341ecbbe21"
+          "28b5b75b-e577-4f8f-84a7-e4d967828400"
         ],
         "isRemovable": false,
-        "filePath": "californiaindunil10"
+        "filePath": "californiaIndunil10"
       },
-      "339d6099-1b2a-4b75-876f-0e341ecbbe21": {
-        "id": "339d6099-1b2a-4b75-876f-0e341ecbbe21",
-        "parent": "dc0c89d9-2606-469c-b9a3-8d53fdfa86dd",
+      "28b5b75b-e577-4f8f-84a7-e4d967828400": {
+        "id": "28b5b75b-e577-4f8f-84a7-e4d967828400",
+        "parent": "b09f7f95-f8bd-425c-8d9a-37fb7e0fd08e",
         "name": "lambda.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "californiaindunil10/lambda.js",
+        "filePath": "californiaIndunil10/lambda.js",
         "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
@@ -30,15 +30,40 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "apigusWest1califorrindunilqacalany",
+            "config": {}
+          }
+        ]
       }
     },
-    "rootNode": "dc0c89d9-2606-469c-b9a3-8d53fdfa86dd",
+    "rootNode": "b09f7f95-f8bd-425c-8d9a-37fb7e0fd08e",
     "openFiles": [
-      "339d6099-1b2a-4b75-876f-0e341ecbbe21"
+      "28b5b75b-e577-4f8f-84a7-e4d967828400"
     ],
-    "currentFileId": "339d6099-1b2a-4b75-876f-0e341ecbbe21",
-    "resources": {},
+    "currentFileId": "28b5b75b-e577-4f8f-84a7-e4d967828400",
+    "resources": {
+      "apigusWest1califorrindunilqacalany": {
+        "name": "apigusWest1califorrindunilqacalany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-west-1",
+          "apiMode": 0,
+          "apiName": "califorr",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/cal",
+          "resourcePath": "/indunil/qa/cal",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      }
+    },
     "customTemplate": {
       "dialect": null,
       "definitions": null
@@ -58,19 +83,19 @@
     }
   },
   "PROJECT_META": {
-    "projectName": "californiaindunil10",
+    "projectName": "californiaIndunil10",
     "projectDescription": "",
     "projectVersion": "1.0.0",
     "projectRegion": "us-west-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568106115368
+    "lastSave": 1568107353110
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
-      "name": "californiaindunil10",
-      "url": "https://github.com/Indunil1992/californiaindunil10"
+      "name": "californiaIndunil10",
+      "url": "https://github.com/Indunil1992/californiaIndunil10"
     }
   }
 }
